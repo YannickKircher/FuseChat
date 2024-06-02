@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fusechat01"
+version = "0.0.1"
+description = ""
+authors = ["Yannick Kircher"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.30.5"
+langchain = "^0.2.1"
+langfuse = "^2.33.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
